@@ -87,6 +87,9 @@ endif
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# Build Broken Flags
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
